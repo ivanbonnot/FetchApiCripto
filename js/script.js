@@ -26,7 +26,7 @@ function submitFormulario(e) {
     const { criptomoneda } = objBusqueda;
 
     if (criptomoneda === '') {
-        mostrarAlerta('Campo obligatorio');
+        mostrarAlerta('Falta elegir una criptomoneda');
         return;
     }
 
