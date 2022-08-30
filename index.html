@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizar Criptomonedas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="formulario">
+
+            <label>Elegir cripto</label>
+            <select id="criptomonedas" name="criptomoneda">
+                <option value="">Elegir criptomoneda</option>
+                <option value="BTC">Bitcoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="ADA">Cardano</option>
+                <option value="DOT">Polkadot</option>
+            </select>
+
+            <input type="submit" value="Cotizar" />
+
+            <div id="resultado" class="resultado"></div>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
